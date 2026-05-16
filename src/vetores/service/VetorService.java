@@ -21,7 +21,7 @@ public class VetorService {
 		numero = new int[5];
 		
 		for(int i = 0; i < 5; i++) {
-			 numero[i] = lerNumeroInteiro( "Digite um numero para formar uma matriz: ");//pede ao usuario para digitar os numeros
+			 numero[i] = lerNumeroInteiro( "Digite um numero: ");//pede ao usuario para digitar os numeros
 		}// e vai impedir se for string
 	}
 	public int getPar() {
