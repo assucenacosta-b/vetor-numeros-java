@@ -16,7 +16,7 @@ public class ProgramaVetor{
 		int impar = teste.getImpar();
 		
 		//cria uma nova caixinha informando as operações
-        String result = "Numeros "+ teste.getNumero();
+        String result = "Numeros ";
         result += "\nSoma: " + soma;
         result += "\nMedia: " + media;
         result += "\nMaior par: " + par;
