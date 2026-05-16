@@ -6,16 +6,24 @@ public class VetorService {
 	
 	private int[] numero;
 
+	 private int lerNumeroInteiro(String mensagem) { //verificação de inteiro
+	        while (true) {
+	            try {
+	                String input = JOptionPane.showInputDialog(null, mensagem);
+	                return Integer.parseInt(input); // faz com que aceite o numero
+	            } catch (NumberFormatException e) { // caso nao foi um numero digitado ele executa a mensagem a baixo
+	                JOptionPane.showMessageDialog(null, "Valor invalido!","Erro! Apenas numeros",JOptionPane.ERROR_MESSAGE); //faz com que ocorra uma mensagem de erro
+	            }
+	        }
+	    }
+
 	public void getReceberNum() {  //vai receber os numeros que o usuario digitar
 		numero = new int[5];
 		
 		for(int i = 0; i < 5; i++) {
-			String numeros = JOptionPane.showInputDialog(null, "Digite um numero:");
-			numero[i] = Integer.parseInt(numeros);	/*aqui ele vai transforrmar o string para int, porque pelo oque eu vi ele apenas pega string
-		  entao para transformar em outras variaveis usamos o parse'e aqui qual variavel queremos'*/
-		}
+			 numero[i] = lerNumeroInteiro( "Digite um numero para formar uma matriz: ");//pede ao usuario para digitar os numeros
+		}// e vai impedir se for string
 	}
-
 	public int getPar() {
 	    int maior = Integer.MIN_VALUE; //usei o min_value pra facilitar, pois precisamos achar o maior
 		for(int i = 0; i < 5; i++) {
