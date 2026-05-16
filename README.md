@@ -1,6 +1,6 @@
-#Vetor de Números
+# Vetor de Números
 
-##Descrição
+## Descrição
 Esse programa lê 5 numeros inteiros que são armazenados em um array(vetor) e faz operações simples como:
 
 1- Conseguir identificar o maior número par do array   
@@ -8,12 +8,12 @@ Esse programa lê 5 numeros inteiros que são armazenados em um array(vetor) e f
 3- Ele soma todos os números informados  
 4- E calcula a média
 
-##Como Executar
+## Como Executar
 * Ultilize uma ide que aceite java
 * Copie o codigo e cole nela
 * E clique em executar
 
-##Como Ultilizar
+## Como Ultilizar
 
  Apos executar o codigo clique e digite um numero, faça isso 5 vezes. Exemplo: 3, 4, 8, 7, 2       
  A saida desse codigo vai ser: 
@@ -24,7 +24,7 @@ Esse programa lê 5 numeros inteiros que são armazenados em um array(vetor) e f
        Menor impar: 3
        
 
-##Tecnologias Ultilizadas
+## Tecnologias Ultilizadas
 
 - Java 21 
 - Eclipse IDE
@@ -32,7 +32,7 @@ Esse programa lê 5 numeros inteiros que são armazenados em um array(vetor) e f
 - JOptionPane
 - Programação Orientada a Objetos (POO)
 
-##Estrutura
+## Estrutura
 > src     
  └── vetores.app   
  │ └── ProgramaVetor.java       
@@ -40,6 +40,6 @@ Esse programa lê 5 numeros inteiros que são armazenados em um array(vetor) e f
  └── vetores.service       
  └── VetorService.java
  
-##Autor
+## Autor
 
 Assucena Costa B. dos Reis
